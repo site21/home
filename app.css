@@ -1,0 +1,153 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+
+.reg_heading{
+	display: block;
+	text-align: center;
+	background-color: #ee6e73;
+	color: #fff;
+	padding: 5px;
+}
+
+.ct{
+	border-bottom: 1px solid red;
+}
+
+.search-heading{
+	border-top: 3px solid #CCC;
+}
+
+.hh{
+	padding: 0px;
+}
+
+.dw-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.dw-box > span{
+	background-color: transparent;
+	margin-left: -10px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.st tr td:nth-child(odd){
+	font-weight: bolder;
+}
+
+.srch{
+	position: relative;
+}
+
+#srchRes {
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	z-index: 999;
+	top: 42.3px;
+	padding: 0px!important;
+	border-radius: 3px;
+}
+
+#srchRes a{
+	transition: all 100ms ease-in-out;
+	padding: 0px!important;
+	margin: 0px!important;
+}
+
+#srchRes a:hover{
+	color: #ee6e73;
+	color: #fff;
+}
+
+#srchRes p{
+	font-size: 17px;
+	transition: all 200ms ease-in-out;
+	padding: 5px 10px;
+    margin: 0px 0px 5px 0px;
+    font-weight: bold;
+}
+
+#srchRes p:hover{
+	background-color: #007bff;
+}
+
+.highlight{
+	color: #f06565;
+}
+
+.custom-badge{
+	background: #101010;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #FFF!important;
+}
+
+#users .material-icons{
+    vertical-align: -6px;
+    margin-right: 0.4rem;
+}
+
+.bs{
+    box-shadow: 0px 3px 10px #CCC;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.bs > .reg_heading{
+    margin: 0 -12px;
+    font-size: 35px;
+}
+
+.up{
+    animation: move 1s linear infinite alternate;
+}
+
+@keyframes move {
+  0%   {transform: translate(0px, -1rem);}
+  100% {transform: translate(0px, 1rem);}
+}
+
+.pg{
+	height: 30px;
+	padding: 0px!important;
+	border-radius: 22px;
+	width: 0%;
+	margin-bottom: 0.6rem;
+}
+
+.progress-bar{
+	background-color: #00b712;
+    background-image: -webkit-linear-gradient(bottom right, #00b712 0%, #5aff15 74%);
+    background-image: -o-linear-gradient(bottom right, #00b712 0%, #5aff15 74%);
+    background-image: linear-gradient(to top left, #00b712 0%, #5aff15 74%);
+	height: 30px;
+	width: 0%;
+	border-radius: 22px;
+	transition: all 350ms ease-in-out;
+	line-height: 30px;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.prg{
+	width: 0%;
+	height: 30px;
+	background-color: #00b712;
+    background-image: -webkit-linear-gradient(bottom right, #00b712 0%, #5aff15 74%);
+    background-image: -o-linear-gradient(bottom right, #00b712 0%, #5aff15 74%);
+    background-image: linear-gradient(to top left, #00b712 0%, #5aff15 74%);
+	display: block;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+}
